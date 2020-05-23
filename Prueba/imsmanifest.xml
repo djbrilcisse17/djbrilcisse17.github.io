@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This package has been created with Moodle 2.9.3 (Build: 20151109) (2015051103) http://moodle.org/, Book module version 2015051100 - https://github.com/skodak/moodle-mod_book -->
+<!-- One idea and implementation by Eloy Lafuente (stronk7) and Antonio Vicent (C) 2001-3001 -->
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="MANIFEST-9a80022d322822ea4c1b84ad24f66d7e" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsmd_v1p2 imsmd_v1p2p2.xsd">
+  <organizations default="MOODLE-2-1">
+    <organization identifier="MOODLE-2-1" structure="hierarchical">
+      <title>Trabajando con Word</title>
+        <item identifier="ITEM-2-1-1" isvisible="true" identifierref="RES-2-1-1">
+         <title>El entorno de Word 2010 </title>
+          <item identifier="ITEM-2-1-2" isvisible="true" identifierref="RES-2-1-2">
+           <title>Elementos de Pantalla</title>
+          </item>
+          <item identifier="ITEM-2-1-3" isvisible="true" identifierref="RES-2-1-3">
+           <title>La cinta de opciones</title>
+          </item>
+          <item identifier="ITEM-2-1-4" isvisible="true" identifierref="RES-2-1-4">
+           <title>La ficha Archivo</title>
+          </item>
+          <item identifier="ITEM-2-1-5" isvisible="true" identifierref="RES-2-1-5">
+           <title>Las vistas</title>
+          </item>
+        </item>
+        <item identifier="ITEM-2-1-6" isvisible="true" identifierref="RES-2-1-6">
+         <title>Formato del documento</title>
+          <item identifier="ITEM-2-1-7" isvisible="true" identifierref="RES-2-1-7">
+           <title>Los temas</title>
+          </item>
+          <item identifier="ITEM-2-1-8" isvisible="true" identifierref="RES-2-1-8">
+           <title>Portada</title>
+          </item>
+          <item identifier="ITEM-2-1-9" isvisible="true" identifierref="RES-2-1-9">
+           <title>Cambiar el fondo de página</title>
+          </item>
+          <item identifier="ITEM-2-1-10" isvisible="true" identifierref="RES-2-1-10">
+           <title>Fuente</title>
+          </item>
+          <item identifier="ITEM-2-1-11" isvisible="true" identifierref="RES-2-1-11">
+           <title>Cambio mayúsculas/minúsculas</title>
+          </item>
+          <item identifier="ITEM-2-1-12" isvisible="true" identifierref="RES-2-1-12">
+           <title>Color y efectos de texto</title>
+          </item>
+          <item identifier="ITEM-2-1-13" isvisible="true" identifierref="RES-2-1-13">
+           <title>WordArt</title>
+          </item>
+          <item identifier="ITEM-2-1-14" isvisible="true" identifierref="RES-2-1-14">
+           <title>Formato párrafo</title>
+          </item>
+          <item identifier="ITEM-2-1-15" isvisible="true" identifierref="RES-2-1-15">
+           <title>Listas con viñetas y numeradas</title>
+          </item>
+        </item>
+        <item identifier="ITEM-2-1-16" isvisible="true" identifierref="RES-2-1-16">
+         <title>Estilos</title>
+          <item identifier="ITEM-2-1-17" isvisible="true" identifierref="RES-2-1-17">
+           <title>Introducción</title>
+          </item>
+          <item identifier="ITEM-2-1-18" isvisible="true" identifierref="RES-2-1-18">
+           <title>Aplicar y quitar estilos  </title>
+          </item>
+          <item identifier="ITEM-2-1-19" isvisible="true" identifierref="RES-2-1-19">
+           <title> Crear, modificar y borrar estilos  Videotutorial Flash</title>
+          </item>
+          <item identifier="ITEM-2-1-20" isvisible="true" identifierref="RES-2-1-20">
+           <title>Configurar página</title>
+          </item>
+          <item identifier="ITEM-2-1-21" isvisible="true" identifierref="RES-2-1-21">
+           <title>Configuración de página</title>
+          </item>
+          <item identifier="ITEM-2-1-22" isvisible="true" identifierref="RES-2-1-22">
+           <title>Encabezados y pies de página </title>
+          </item>
+          <item identifier="ITEM-2-1-23" isvisible="true" identifierref="RES-2-1-23">
+           <title>Números de página  </title>
+          </item>
+        </item>
+        <item identifier="ITEM-2-1-24" isvisible="true" identifierref="RES-2-1-24">
+         <title>Tablas </title>
+          <item identifier="ITEM-2-1-25" isvisible="true" identifierref="RES-2-1-25">
+           <title>Crear tablas</title>
+          </item>
+          <item identifier="ITEM-2-1-26" isvisible="true" identifierref="RES-2-1-26">
+           <title>Aplicar un estilo de tabla</title>
+          </item>
+        </item>
+        <item identifier="ITEM-2-1-27" isvisible="true" identifierref="RES-2-1-27">
+         <title>Imagenes</title>
+          <item identifier="ITEM-2-1-28" isvisible="true" identifierref="RES-2-1-28">
+           <title>Manipular imágenes</title>
+          </item>
+          <item identifier="ITEM-2-1-29" isvisible="true" identifierref="RES-2-1-29">
+           <title>Organizar una imagen</title>
+          </item>
+        </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-2-1-1" type="webcontent" xml:base="1/" href="index.html">
+      <file href="1/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-2" type="webcontent" xml:base="2/" href="index.html">
+      <file href="2/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-3" type="webcontent" xml:base="3/" href="index.html">
+      <file href="3/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-4" type="webcontent" xml:base="4/" href="index.html">
+      <file href="4/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-5" type="webcontent" xml:base="5/" href="index.html">
+      <file href="5/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-6" type="webcontent" xml:base="6/" href="index.html">
+      <file href="6/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-7" type="webcontent" xml:base="7/" href="index.html">
+      <file href="7/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-8" type="webcontent" xml:base="8/" href="index.html">
+      <file href="8/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-9" type="webcontent" xml:base="9/" href="index.html">
+      <file href="9/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-10" type="webcontent" xml:base="10/" href="index.html">
+      <file href="10/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-11" type="webcontent" xml:base="11/" href="index.html">
+      <file href="11/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-12" type="webcontent" xml:base="12/" href="index.html">
+      <file href="12/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-13" type="webcontent" xml:base="13/" href="index.html">
+      <file href="13/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-14" type="webcontent" xml:base="14/" href="index.html">
+      <file href="14/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-15" type="webcontent" xml:base="15/" href="index.html">
+      <file href="15/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-16" type="webcontent" xml:base="16/" href="index.html">
+      <file href="16/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-17" type="webcontent" xml:base="17/" href="index.html">
+      <file href="17/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-18" type="webcontent" xml:base="18/" href="index.html">
+      <file href="18/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-19" type="webcontent" xml:base="19/" href="index.html">
+      <file href="19/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-20" type="webcontent" xml:base="20/" href="index.html">
+      <file href="20/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-21" type="webcontent" xml:base="21/" href="index.html">
+      <file href="21/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-22" type="webcontent" xml:base="22/" href="index.html">
+      <file href="22/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-23" type="webcontent" xml:base="23/" href="index.html">
+      <file href="23/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-24" type="webcontent" xml:base="24/" href="index.html">
+      <file href="24/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-25" type="webcontent" xml:base="25/" href="index.html">
+      <file href="25/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-26" type="webcontent" xml:base="26/" href="index.html">
+      <file href="26/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-27" type="webcontent" xml:base="27/" href="index.html">
+      <file href="27/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-28" type="webcontent" xml:base="28/" href="index.html">
+      <file href="28/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-29" type="webcontent" xml:base="29/" href="index.html">
+      <file href="29/index.html" />
+      <dependency identifierref="RES-2-1-css" />
+    </resource>
+    <resource identifier="RES-2-1-css" type="webcontent" xml:base="css/" href="styles.css">
+      <file href="css/styles.css" />
+    </resource>
+  </resources>
+</manifest>
